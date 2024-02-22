@@ -1,0 +1,50 @@
+* {
+    padding: 0px;
+    margin: 0px
+    
+}
+#containers{
+    padding: 35px;
+}
+a{
+    color: black;
+    text-decoration:solid;
+
+}
+a:hover{
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+header{
+    background-color:rgb(148,6,49);
+    padding: 100px;
+    color: aliceblue;
+}
+body{
+    text-align: center;
+    background-color: rgb(249,249,249);
+    color: black;
+    
+}
+
+ul{
+    list-style: square;
+    list-style-position: inside;
+}
+
+.social{
+    display: inline;
+}
+.titles{
+    padding:20px;
+}
+
+.profile-pic{
+    border-radius: 50%;
+}
+footer{
+    background-color:rgb(148,6,49);
+    padding:30px;
+}
