@@ -1,11 +1,10 @@
 * {
+    align-items: center;
     padding: 0px;
     margin: 0px
     
 }
-#containers{
-    padding: 35px;
-}
+
 a{
     color: black;
     text-decoration:solid;
@@ -18,14 +17,14 @@ a:hover{
 }
 
 header{
+    
     background-color:rgb(148,6,49);
-    padding: 100px;
-    color: aliceblue;
+    padding: 80px;
+    color:rgb(249,249,249)
 }
 body{
     text-align: center;
     background-color: rgb(249,249,249);
-    color: black;
     
 }
 
@@ -48,4 +47,21 @@ footer{
     background-color:rgb(148,6,49);
     color: rgb(0, 0, 0);
     padding:30px;
+}
+
+#containers{
+    border: 3px rgb(148,6,49) solid;
+    border-radius: 5%;
+    margin:10px;
+    padding:35px;
+}
+
+.light-mode{
+    background-color: rgb(249,249,249);
+    color: rgb(0, 0, 0);
+}
+
+.dark-mode{
+    background-color: rgb(30, 30, 30);
+    color: rgb(153, 51, 255);
 }
